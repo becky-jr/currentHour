@@ -27,7 +27,7 @@ function getCurrentHour() {
 getCurrentHour();
 
 let dateToday = new Date().getDate(),
-    monthToday = new Date().getMonth(),
+    monthToday = new Date().getMonth() + 1,
     yearToday = new Date().getFullYear();
 
 
