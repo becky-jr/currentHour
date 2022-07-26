@@ -1,0 +1,25 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #06021b;
+}
+
+.clock {
+    color: #fff;
+    font-size: 20rem;
+    font-weight: bold;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    margin: 8rem 0 0 4rem;
+    align-items: center;
+}
+
+.today-date {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0 0 0 8rem;
+    align-items: center;
+}
