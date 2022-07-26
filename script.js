@@ -31,6 +31,6 @@ let dateToday = new Date().getDate(),
     yearToday = new Date().getFullYear();
 
 
-let currentDate = document.querySelector('.today-date').innerHTML = `${dateToday}.${monthToday}.${yearToday}`;;
+let currentDate = document.querySelector('.today-date').innerHTML = `${dateToday}.${monthToday + 1}.${yearToday}`;;
 
 setInterval(getCurrentHour, 1000);
